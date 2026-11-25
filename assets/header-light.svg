@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="240" viewBox="0 0 840 240">
+  <style>
+    .sans { font-family: Pretendard, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .float1 { animation: f1 9s ease-in-out infinite; }
+    .float2 { animation: f2 11s ease-in-out infinite; }
+    .float3 { animation: f3 13s ease-in-out infinite; }
+    @keyframes f1 { 0%,100% { transform: translate(0,0) } 50% { transform: translate(-18px,12px) } }
+    @keyframes f2 { 0%,100% { transform: translate(0,0) } 50% { transform: translate(16px,-14px) } }
+    @keyframes f3 { 0%,100% { transform: translate(0,0) } 50% { transform: translate(-10px,-16px) } }
+    .wave { animation: wave 2.6s ease-in-out infinite; transform-origin: 70% 80%; transform-box: fill-box; }
+    @keyframes wave { 0%,60%,100% { transform: rotate(0) } 10%,30% { transform: rotate(14deg) } 20%,40% { transform: rotate(-8deg) } }
+  </style>
+  <defs>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="34"/></filter>
+    <clipPath id="card"><rect width="840" height="240" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="840" height="240" fill="#f7f7f5"/>
+    <g filter="url(#blur)" opacity=".85">
+      <circle class="float1" cx="650" cy="70" r="90" fill="#c7d2fe"/>
+      <circle class="float2" cx="760" cy="170" r="80" fill="#fbcfe8"/>
+      <circle class="float3" cx="560" cy="190" r="70" fill="#bbf7d0"/>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="839" height="239" rx="23.5" fill="none" stroke="#e7e5e4"/>
+
+  <text x="48" y="74" class="mono" font-size="13" letter-spacing="1" fill="#78716c">@chael2</text>
+  <text x="46" y="134" class="sans" font-size="50" font-weight="700" letter-spacing="-1.6" fill="#1c1917">Hi, I'm Yujin <tspan class="wave">👋</tspan></text>
+  <text x="48" y="176" class="sans" font-size="17.5" fill="#57534e">정보보호학을 공부하면서,</text>
+  <text x="48" y="201" class="sans" font-size="17.5" fill="#57534e">배운 걸 직접 웹으로 만들어 보고 있어요.</text>
+</svg>

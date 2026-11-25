@@ -1,15 +1,29 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+  <img src="./assets/header-light.svg" width="100%" alt="Hi, I'm Yujin — 정보보호학을 공부하면서, 배운 걸 직접 웹으로 만들어 보고 있어요.">
+</picture>
 
-<img src="./assets/hero.svg" width="100%" alt="chael2 — Security Analysis · Incident Response"/>
+<p>
+  <a href="https://2026portfolio-silk.vercel.app"><img src="https://img.shields.io/badge/Portfolio-18181b?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
+  <a href="https://chael2.tistory.com/"><img src="https://img.shields.io/badge/Blog-ff5a4a?style=for-the-badge&logo=tistory&logoColor=white" alt="Tistory Blog"></a>
+</p>
 
-<br/><br/>
+### About
 
-<a href="https://2026portfolio-silk.vercel.app"><img src="./assets/btn-portfolio.svg" height="40" alt="Portfolio"/></a>
-&nbsp;
-<a href="https://chael2.tistory.com/"><img src="./assets/btn-blog.svg" height="40" alt="Blog"/></a>
+- 🎓 중부대학교 **정보보호학전공**
+- 🌱 지금은 **PSOC**를 만들고 있어요: 보안 시나리오로 진단부터 대응까지 직접 해 보는 학습용 시뮬레이터
+- 📜 네트워크관리사 2급
 
-<br/><br/>
+### Projects
 
-<img src="./assets/bento.svg" width="100%" alt="PSOC · About · Learning · Coursework"/>
+| | 프로젝트 | 한 줄 소개 |
+| :-- | :-- | :-- |
+| 🚧 | **PSOC** · 개인 | 시나리오 기반 취약점 진단 · 공격 탐지 · 사고 대응 시뮬레이터 |
+| 🛡️ | [**SecureGuard**](https://github.com/chael2/SecureGuard) · 팀 · 2026-2 | 워게임으로 OWASP Top 10을 배우는 사이트 |
+| 📚 | **Web-Pedia** · 팀 · 2026-1 | 웹 문법과 XSS · SQLi 개념을 정리한 학습 사이트 |
 
-</div>
+### Tech
+
+<img src="https://skillicons.dev/icons?i=ts,js,html,css,py,java,c&perline=7" alt="TypeScript, JavaScript, HTML, CSS, Python, Java, C" height="44">
+
+<sub>보안 쪽으로는 OWASP Top 10, Suricata를 공부하고 있어요.</sub>
