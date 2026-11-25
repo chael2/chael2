@@ -1,7 +1,6 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=chael2&fontColor=ffffff&fontSize=50&fontAlignY=38&desc=Information%20Security%20Student%20%7C%20Project%20Lead&descAlignY=60&descSize=16" />
   <img src="./assets/header-light.svg" width="100%" alt="Hi, I'm Yujin — 정보보호학을 공부하면서, 배운 걸 직접 웹으로 만들어 보고 있어요.">
-</picture>
+
 
 <p>
   <a href="https://2026portfolio-silk.vercel.app"><img src="https://img.shields.io/badge/Portfolio-18181b?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
