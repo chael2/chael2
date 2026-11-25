@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="40" viewBox="0 0 148 40">
+  <rect x="0.5" y="0.5" width="147" height="39" rx="20" fill="#111113" stroke="#2e2e33"/>
+  <text x="68" y="25" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif" font-size="14" font-weight="600" fill="#fafafa">Portfolio</text>
+  <text x="122" y="25" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="600" fill="#71717a">↗</text>
+</svg>
