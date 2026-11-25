@@ -1,4 +1,4 @@
-<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f3a4d&height=180&section=header&text=chael2&fontColor=ffffff&fontSize=50&fontAlignY=38&desc=Security%20Analysis%20%26%20Incident%20Response&descAlignY=60&descSize=16" />
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f3a4d&height=180&section=header&text=chael2&fontColor=ffffff&fontSize=50&fontAlignY=38&desc=Security%20Analysis%20%7C%20Incident%20Response&descAlignY=60&descSize=16" />
 
 
 # Hi, I'm chael2 👋
